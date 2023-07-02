@@ -1,3 +1,5 @@
+#To print in shell script we use echo,following is the syntax in shell
+# echo $ sample_string
 
 output "sample_string" {
   value=var.sample_string
