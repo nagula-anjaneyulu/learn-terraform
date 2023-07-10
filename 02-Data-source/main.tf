@@ -8,5 +8,5 @@
 
 data "aws_security_groups" "test" {}
 output "all-sg" {
-  value = coalesce(data.aws_securit_group.selected.id,"")
+  value = data.aws_security_groups.test
 }
