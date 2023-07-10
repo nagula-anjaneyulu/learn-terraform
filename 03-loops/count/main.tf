@@ -1,5 +1,5 @@
 resource "null_resource" "null" {
-  count = 20
+  count = 10
 }
 resource "null_resource" "fruits" {
   count = length(var.fruits)
