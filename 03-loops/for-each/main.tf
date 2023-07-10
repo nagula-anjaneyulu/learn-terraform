@@ -10,6 +10,6 @@ variable "fruits" {
   default = {
     apple=10
     banana=200
-    orange=100git pu
+    orange=100
   }
   }
