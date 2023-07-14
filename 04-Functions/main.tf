@@ -11,13 +11,17 @@ output "sample" {
 }
 
 variable "sample1" {
+  default = ["abc","xyz"]
+
+}
+variable "sample2" {
   default = {
     abc = 100
     xyz = 200
   }
 }
 
-output "sample1" {
+output "sample2" {
   value = element(var.sample1,0 )
 }
 
