@@ -25,3 +25,6 @@ output "sample1" {
   value = element(var.sample1, 0 )
 }
 
+output "sample2" {
+  value = lookup(var.sample2, "a1", "dummy" )
+}
